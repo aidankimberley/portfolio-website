@@ -43,13 +43,13 @@ export default function RootLayout({
               Aidan Kimberley
             </Link>
             <nav className="hidden md:flex items-center gap-6 text-sm">
-              <a href="/#about" className="hover:opacity-80">About</a>
-              <a href="/#experience" className="hover:opacity-80">Experience</a>
+              <Link href="/#about" className="hover:opacity-80">About</Link>
+              <Link href="/#experience" className="hover:opacity-80">Experience</Link>
               <Link href="/projects" className="hover:opacity-80">Projects</Link>
-              <a href="/#skills" className="hover:opacity-80">Skills</a>
-              <a href="/#publications" className="hover:opacity-80">Publications</a>
+              <Link href="/#skills" className="hover:opacity-80">Skills</Link>
+              <Link href="/#publications" className="hover:opacity-80">Publications</Link>
               <Link href="/resume" className="hover:opacity-80">Resume</Link>
-              <a href="/#contact" className="hover:opacity-80">Contact</a>
+              <Link href="/#contact" className="hover:opacity-80">Contact</Link>
             </nav>
             <div className="md:hidden">
               <Link href="/resume" className="rounded-lg px-3 py-2 bg-blue-600 text-white text-sm">
