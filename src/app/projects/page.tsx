@@ -60,7 +60,7 @@ export default function ProjectsPage() {
       id: "project-4",
       title: "Project 4",
       summary:
-        "Placeholder for another robotics/mechatronics project.",
+        "Many more projects to come...",
       links: [{ label: "Link", href: "#" }],
     },
   ];
