@@ -206,7 +206,12 @@ export default function Home() {
               image: "/sapiens_joints_w_RGB.png",
               alt: "Computer vision validation joints overlay",
             },
-            { title: "Project 3", href: "/projects#project-3", image: undefined, alt: "Project 3" },
+            {
+              title: "TMS Stroke Rehabilitation Study",
+              href: "/projects#tms-stroke-rehabilitation",
+              image: "/MGH_TMS_image.webp",
+              alt: "TMS experimental setup at Mass General Hospital",
+            },
           ].map((p) => (
             <Link key={p.title} href={p.href} className="rounded-xl border overflow-hidden group">
               <div className="relative aspect-video bg-gray-50">

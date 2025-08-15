@@ -59,7 +59,7 @@ export default function ResumePage() {
               <span className="text-sm text-gray-500">Boston, MA · January 2024 — August 2024</span>
             </div>
             <ul className="mt-2 list-disc pl-5 text-sm text-gray-700 dark:text-gray-300">
-              <li>Debugged and optimized hardware/software for experimental protocols with TMS and direct current stimulators.</li>
+              <li>Debugged and optimized hardware/software for experimental protocols with transcranial magnetic stimulation and direct current stimulators.</li>
               <li>Worked independently to solve lab technical issues.</li>
               <li>Performed data analysis using MATLAB to extract insights from noisy data.</li>
             </ul>

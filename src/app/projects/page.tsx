@@ -39,8 +39,23 @@ export default function ProjectsPage() {
       ],
     },
     {
-      id: "project-3",
-      title: "Project 3",
+      id: "tms-stroke-rehabilitation",
+      title: "TMS Stroke Rehabilitation Study",
+      summary:
+        `Established a comprehensive transcranial magnetic stimulation (TMS) experimental setup for investigating \
+        paired associative stimulation (PAS) protocols in stroke rehabilitation research. Independently integrated \
+        hardware and software systems using Cambridge Electronic Design (CED) Signal software and MATLAB to \
+        control stimulation parameters and data acquisition. Conducted extensive data analysis on noisy experimental \
+        datasets to extract meaningful insights for clinical applications.`,
+      image: "/MGH_TMS_image.webp",
+      imageAlt: "TMS experimental setup at Mass General Hospital",
+      links: [
+        { label: "Details", href: "#" },
+      ],
+    },
+    {
+      id: "project-4",
+      title: "Project 4",
       summary:
         "Placeholder for another robotics/mechatronics project.",
       links: [{ label: "Link", href: "#" }],
