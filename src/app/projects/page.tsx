@@ -15,9 +15,11 @@ export default function ProjectsPage() {
       id: "ankle-exoskeleton",
       title: "Ankle Exoskeleton",
       summary:
-        `Designed, fabricated, and developed control systems for a wearable ankle exoskeleton to assist gait. \
-        Conducted power flow analysis and used iterative design methods, incorporating both on-body and bench-top \
-        testing data to optimize performance. This work culminated in a paper which was featured at the IEEE International Conference on Robotics and Automation.`,
+        `At the Harvard Biodesign Lab, designed, fabricated, and developed wearable ankle exoskeleton robots to assist gait. \
+        Created detailed designs in SOLIDWORKS and fabricated multiple robot prototypes using SLS 3D printing, carbon fiber molding, \
+        and soldering new electronic components. Conducted comprehensive data collection and analysis using MATLAB and Simulink, incorporating both on-body \
+        and bench-top testing to optimize performance through power flow analysis and iterative design methods. This work culminated in a paper \
+        featured at the IEEE International Conference on Robotics and Automation.`,
       image: "/ankle_exo_design.png",
       imageAlt: "Ankle exoskeleton design rendering",
       links: [
@@ -28,10 +30,11 @@ export default function ProjectsPage() {
       id: "computer-vision-validation",
       title: "Computer Vision Model Validation",
       summary:
-        `Captured a high-fidelity dataset to design and validate custom 3D body tracking algorithms, \
-        compare IR, RGB, and point-cloud data quality between different camera alternatives, perform validation \
-        assessment of new solutions with respect to a reference motion capture system. Performed statistical \
-        analysis on the data.`,
+        `Captured a high-fidelity dataset to design and validate custom 3D human pose tracking algorithms, \
+        compare IR, RGB, and point-cloud data quality between different camera alternatives, and perform validation \
+        assessment of new solutions with respect to a reference motion capture system. Designed and implemented \
+        a novel automated anomaly detection method for motion capture data to improve tracking reliability. \
+        Performed statistical analysis on the resulting datasets to validate model performance.`,
       image: "/sapiens_joints_w_RGB.png",
       imageAlt: "Computer vision validation joints overlay",
       links: [
@@ -42,7 +45,7 @@ export default function ProjectsPage() {
       id: "tms-stroke-rehabilitation",
       title: "TMS Stroke Rehabilitation Study",
       summary:
-        `Established a comprehensive transcranial magnetic stimulation (TMS) experimental setup for investigating \
+        `Established a transcranial magnetic stimulation (TMS) experimental setup for investigating \
         paired associative stimulation (PAS) protocols in stroke rehabilitation research. Independently integrated \
         hardware and software systems using Cambridge Electronic Design (CED) Signal software and MATLAB to \
         control stimulation parameters and data acquisition. Conducted extensive data analysis on noisy experimental \
