@@ -28,8 +28,8 @@ export default function Home() {
             <Image
               src="/headshot.png"
               alt="Headshot of Aidan Kimberley"
-              width={512}
-              height={512}
+              width={300}
+              height={300}
               quality={100}
               priority
               className="rounded-full object-cover shadow-md"
