@@ -42,10 +42,11 @@ export default function Home() {
       <section id="about" className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
         <h2 className="text-2xl font-semibold">About</h2>
         <p className="mt-4 text-gray-700 dark:text-gray-300 max-w-3xl">
-         Analytical and versatile engineering student at McGill University with experience in robotics R&D, data-driven problem solving, and cross-disciplinary collaboration. 
-         Adept at applying engineering principles, statistical analysis, and creative design to deliver high-impact solutions. Proven track record in research, leadership, 
-         and technical execution, with work featured at the IEEE International Conference on Robotics and Automation. Seeking opportunities to leverage a blend of technical 
-         expertise and strategic thinking in engineering, consulting, or finance.
+        Engineering student at McGill University with hands-on experience in robotics research and development, data-driven problem solving, 
+        and collaborative projects across disciplines. Skilled at combining engineering principles, statistical analysis, and creative design to 
+        develop practical, high-impact solutions. Experienced in leading research initiatives and executing technical projects, with work recognized 
+        at the IEEE International Conference on Robotics and Automation. Looking to apply a mix of technical expertise and strategic thinking to opportunities 
+        in engineering, consulting, or finance.
  
         </p>
       </section>
@@ -57,9 +58,18 @@ export default function Home() {
           {/* Altec Research/Delsys */}
           <div className="rounded-xl border p-5">
             <div className="flex items-center justify-between gap-3">
-              <div>
-                <h3 className="font-semibold">Altec Research/Delsys, R&D Intern</h3>
-                <p className="text-sm text-gray-500">Natick, MA · May 2025 — August 2025</p>
+              <div className="flex items-center gap-3">
+                <Image
+                  src="/delsys_logo.png"
+                  alt="Delsys logo"
+                  width={64}
+                  height={64}
+                  className="rounded object-contain"
+                />
+                <div>
+                  <h3 className="font-semibold">Altec Research/Delsys, R&D Intern</h3>
+                  <p className="text-sm text-gray-500">Natick, MA · May 2025 — August 2025</p>
+                </div>
               </div>
             </div>
             <ul className="mt-3 list-disc pl-5 space-y-1 text-sm text-gray-700 dark:text-gray-300">
@@ -71,9 +81,18 @@ export default function Home() {
           {/* Mass General Hospital IHP */}
           <div className="rounded-xl border p-5">
             <div className="flex items-center justify-between gap-3">
-              <div>
-                <h3 className="font-semibold">Mass General Hospital IHP, Research Intern</h3>
-                <p className="text-sm text-gray-500">Boston, MA · January 2024 — August 2024</p>
+              <div className="flex items-center gap-3">
+                <Image
+                  src="/mgh_logo.png"
+                  alt="Mass General Hospital logo"
+                  width={64}
+                  height={64}
+                  className="rounded object-contain"
+                />
+                <div>
+                  <h3 className="font-semibold">Mass General Hospital IHP, Research Intern</h3>
+                  <p className="text-sm text-gray-500">Boston, MA · January 2024 — August 2024</p>
+                </div>
               </div>
             </div>
             <ul className="mt-3 list-disc pl-5 space-y-1 text-sm text-gray-700 dark:text-gray-300">
@@ -86,9 +105,18 @@ export default function Home() {
           {/* Harvard Biodesign Lab */}
           <div className="rounded-xl border p-5">
             <div className="flex items-center justify-between gap-3">
-              <div>
-                <h3 className="font-semibold">Harvard Biodesign Lab, Undergraduate Research Fellow — Conor Walsh, PhD</h3>
-                <p className="text-sm text-gray-500">Boston, MA · April 2022 — August 2023 (summer months)</p>
+              <div className="flex items-center gap-3">
+                <Image
+                  src="/harvard_logo.png"
+                  alt="Harvard University logo"
+                  width={64}
+                  height={64}
+                  className="rounded object-contain"
+                />
+                <div>
+                  <h3 className="font-semibold">Harvard Biodesign Lab, Undergraduate Research Fellow — Conor Walsh, PhD</h3>
+                  <p className="text-sm text-gray-500">Boston, MA · April 2022 — August 2023 (summer months)</p>
+                </div>
               </div>
             </div>
             <ul className="mt-3 list-disc pl-5 space-y-1 text-sm text-gray-700 dark:text-gray-300">
@@ -102,9 +130,18 @@ export default function Home() {
           {/* McGill Formula Electric */}
           <div className="rounded-xl border p-5">
             <div className="flex items-center justify-between gap-3">
-              <div>
-                <h3 className="font-semibold">McGill Formula Electric, Suspension Team Member</h3>
-                <p className="text-sm text-gray-500">Montreal, CA · October 2022 — May 2023</p>
+              <div className="flex items-center gap-3">
+                <Image
+                  src="/MFE_logo.png"
+                  alt="McGill Formula Electric logo"
+                  width={64}
+                  height={64}
+                  className="rounded object-contain"
+                />
+                <div>
+                  <h3 className="font-semibold">McGill Formula Electric, Suspension Team Member</h3>
+                  <p className="text-sm text-gray-500">Montreal, CA · October 2022 — May 2023</p>
+                </div>
               </div>
             </div>
             <ul className="mt-3 list-disc pl-5 space-y-1 text-sm text-gray-700 dark:text-gray-300">
@@ -115,9 +152,18 @@ export default function Home() {
           {/* Cycle Loft */}
           <div className="rounded-xl border p-5">
             <div className="flex items-center justify-between gap-3">
-              <div>
-                <h3 className="font-semibold">Cycle Loft Bike Shop, Service Technician</h3>
-                <p className="text-sm text-gray-500">Burlington, MA · May 2021 — May 2022</p>
+              <div className="flex items-center gap-3">
+                <Image
+                  src="/cycleloft_logo.webp"
+                  alt="Cycle Loft logo"
+                  width={64}
+                  height={64}
+                  className="rounded object-contain"
+                />
+                <div>
+                  <h3 className="font-semibold">Cycle Loft Bike Shop, Service Technician</h3>
+                  <p className="text-sm text-gray-500">Burlington, MA · May 2021 — May 2022</p>
+                </div>
               </div>
             </div>
             <ul className="mt-3 list-disc pl-5 space-y-1 text-sm text-gray-700 dark:text-gray-300">
