@@ -12,7 +12,7 @@ export default function Home() {
               Aidan Kimberley
             </h1>
             <p className="mt-3 text-lg text-gray-600 dark:text-gray-300">
-              Mechanical/Robotics Engineer — Mechatronics • Computational Modeling • Machine Learning • R&D • Computer Vision • Data Analytics 
+              Mechanical Engineering Student — Applied AI • Mechanical Design • Controls • Computational Modeling • R&D • Data Analytics 
             </p>
             <p className="mt-6 text-gray-700 dark:text-gray-300">
               Mechanical engineering student with experience in wearable robotics, data-driven design, and computational modeling.
