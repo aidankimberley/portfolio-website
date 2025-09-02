@@ -89,13 +89,6 @@ export default function ProjectsPage() {
         { label: "BIM Report", href: "/BIM_project_report.pdf" },
       ],
     },
-    {
-      id: "project-4",
-      title: "Project 4",
-      summary:
-        "Many more projects to come...",
-      links: [{ label: "Link", href: "#" }],
-    },
   ];
 
   return (
