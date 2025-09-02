@@ -212,6 +212,18 @@ export default function Home() {
               image: "/MGH_TMS_image.webp",
               alt: "TMS experimental setup at Mass General Hospital",
             },
+            {
+              title: "Gearbox Design",
+              href: "/projects#gearbox-design",
+              image: "/gearbox_CAD.png",
+              alt: "CAD model of aerospace gearbox design",
+            },
+            {
+              title: "BIM LiDAR Verification",
+              href: "/projects#bim-lidar-verification",
+              image: "/BIM_points.png",
+              alt: "LiDAR point cloud data visualization for BIM verification",
+            },
           ].map((p) => (
             <Link key={p.title} href={p.href} className="rounded-xl border overflow-hidden group">
               <div className="relative aspect-video bg-gray-50">

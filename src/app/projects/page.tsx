@@ -63,6 +63,33 @@ export default function ProjectsPage() {
       ],
     },
     {
+      id: "gearbox-design",
+      title: "Gearbox Design",
+      summary:
+        `As a course project, co-designed and optimized a lightweight aerospace gearbox based on Solar Impulse aircraft specifications as part of a four-member engineering team. \
+        The gearbox was required to withstand 60 HP at 5,500 RPM while transmitting power to a propeller at 835 RPM, meeting strict aerospace requirements \
+        for weight, reliability, and safety factors. Applied AGMA and ASME standards to ensure all components exceeded the required 1.5 safety factor through \
+        iterative optimization, stress analysis, fatigue life estimation, advanced material selection, and CAD modeling. Delivered a final design with manufacturing-ready CAD drawings for the complete gearbox assembly.`,
+      image: "/gearbox_CAD.png",
+      imageAlt: "CAD model of aerospace gearbox design",
+      links: [
+        { label: "Gearbox Report", href: "/AidanKimberley_gearbox_report.pdf" },
+      ],
+    },
+    {
+      id: "bim-lidar-verification",
+      title: "BIM LiDAR Verification",
+      summary:
+        `Developed an algorithm to verify as-built footing geometry using LiDAR point cloud data, integrating Building Information Modeling (BIM) principles to ensure construction accuracy. 
+        Leveraged advanced computational methods—including Singular Value Decomposition (SVD), modified K-means clustering, and plane intersection—to process complex datasets and extract key geometric features such as planes and corner points. 
+        Built comprehensive 3D analysis workflows to compare as-built structures with design specifications, demonstrating proficiency in large-scale spatial data processing, computational geometry, and construction technology.`,
+      image: "/BIM_points.png",
+      imageAlt: "LiDAR point cloud data visualization for BIM verification",
+      links: [
+        { label: "BIM Report", href: "/BIM_project_report.pdf" },
+      ],
+    },
+    {
       id: "project-4",
       title: "Project 4",
       summary:
@@ -83,7 +110,11 @@ export default function ProjectsPage() {
             {/* Image */}
             {p.image ? (
               <div className="mt-4 w-full rounded-lg border bg-gray-50 p-2">
-                <div className="relative w-full h-64">
+                <div className={`relative w-full ${
+                  p.id === 'gearbox-design' || p.id === 'tms-stroke-rehabilitation' || p.id === 'computer-vision-validation' || p.id === 'bim-lidar-verification'
+                    ? 'h-72' 
+                    : 'h-64'
+                }`}>
                   <Image src={p.image} alt={p.imageAlt ?? p.title} fill className="object-contain" />
                 </div>
               </div>
