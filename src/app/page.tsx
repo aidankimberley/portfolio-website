@@ -14,12 +14,12 @@ export default function Home() {
             <p className="mt-3 text-lg text-gray-600 dark:text-gray-300">
               Mechanical Engineering Student — Applied AI • Mechanical Design • Controls • Computational Modeling • R&D • Data Analytics 
             </p>
-            /*
+            {/*
             <p className="mt-6 text-gray-700 dark:text-gray-300">
               Mechanical engineering student with experience in wearable robotics, data-driven design, and computational modeling.
               Combining technical expertise and clear communication to drive innovation across disciplines.
             </p>
-            */
+            */}
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="/resume" className="px-5 py-3 rounded-lg bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700">Download Resume</Link>
               <a href="#projects" className="px-5 py-3 rounded-lg border text-sm font-semibold hover:bg-gray-50 dark:hover:bg-white/5">View Projects</a>
