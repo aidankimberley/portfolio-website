@@ -47,7 +47,7 @@ export default function Home() {
         Engineering student at McGill University with experience in robotics R&D, mechanical design, 
         and applied data analysis. Contributed to research presented at the IEEE International 
         Conference on Robotics and Automation and led multiple technical projects from concept 
-        through execution. Seeking roles in robotics and consulting.
+        through execution. Seeking roles in robotics and consulting. 
         </p>
       </section>
 
