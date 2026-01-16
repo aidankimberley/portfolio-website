@@ -41,7 +41,7 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <section id="about" className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <section id="about" className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
         <h2 className="text-2xl font-semibold">About</h2>
         <p className="mt-4 text-gray-700 dark:text-gray-300 max-w-3xl">
         Engineering student at McGill University with experience in robotics R&D, mechanical design, 
